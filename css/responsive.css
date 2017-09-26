@@ -1,0 +1,245 @@
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header{
+    height: auto;
+    text-align: center;
+  }
+  .logo img{
+    width: 100%;
+  }
+  .menu a{
+    font-size: 11px;
+  }
+  .menu ul li {
+    padding: 20px 5px 25px 5px;
+  }
+  header .right{
+    border-top: 1px solid #ccc;
+  }
+  .right ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    display: inline-block;
+  }
+  .right ul li{
+    padding: 20px 10px 25px 10px;
+  }
+  .icon{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .icon ul li{
+    display: inline-block;
+    list-style: none;
+    float: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: none;
+    margin-left: -4px !important;
+  }
+  .name-price a{
+    font-size: 12px;
+  }
+  .origi{
+    top: 18%;
+  }
+  .newfeed{
+    max-width: 100%;
+  }
+  .singup .left{
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+  }
+  .footer h3, .subcribe h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+  h1{
+    font-size: 18px !important;
+  }
+  .container{
+    width: auto;
+  }
+  .logo{
+    text-align: left;
+  }
+  .menu {
+    display: none !important;
+  }
+  .right{
+    float: right;
+  }
+  .shop-now .title{
+    font-size: 42px;
+  }
+  .banner .right{
+    margin-top: 15px;
+  }
+  .banner .right p{
+    font-size: 14px;
+    letter-spacing: 0;
+    left: 32px;
+  }
+  .midder{
+    top: 20%;
+  }
+  .icon{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .icon ul li{
+    display: inline-block;
+    list-style: none;
+    float: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: none;
+    margin-left: -4px !important;
+  }
+  .banner-2 h1{
+    font-size: 24px !important;
+  }
+  .newfeed{
+    max-width: 100%;
+  }
+  .origi{
+    top: 20%;
+  }
+  .singup .left{
+    float: left;
+    width: 70%;
+    margin-left: 0;
+  }
+  .col1{
+    width: 100%;
+    text-align: center;
+  }
+  .col2{
+    width: 100%;
+    text-align: center;
+  }
+  .col3{
+    width: 100%;
+    text-align: center;
+  }
+  .col4{
+    width: 100%;
+    text-align: center;
+  }
+  .block.content > ul {
+      display: inline-block;
+  }
+}
+@media only screen and (max-width: 479px) {
+  h1{
+    font-size: 18px !important;
+  }
+  .footer h3, .subcribe h3{
+    font-size: 18px !important;
+  }
+  .product.grid .item {
+    float: none;
+  }
+  .icon{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .icon ul li{
+    display: inline-block;
+    list-style: none;
+    float: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: none;
+    margin-left: -4px !important;
+  }
+  .star{
+    left: 35%;
+  }
+  .banner{
+    margin-top: 15px;
+  }
+  .banner .right{
+    margin-top: 15px;
+  }
+  .banner .right .margin-bottom{
+    margin-bottom: 15px;
+  }
+  .banner .right .a{
+    padding-right: 7.5px;
+  }
+  .banner .right .b{
+    padding-left: 7.5px;
+  }
+  .banner-2{
+    margin-top: -10px;
+  }
+  .origi p{
+    display: none;
+  }
+  .origi h1{
+    font-size: 24px !important;
+  }
+  .block.feature-product ul.tabs li{
+    padding: 10px;
+  }
+  .newfeed{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .newfeed .left{
+    width: 100%;
+  }
+  .newfeed .right{
+    width: 100%;
+    text-align: center;
+  }
+  .newfeed .left h2{
+    font-size: 24px !important;
+  }
+  footer .container .row{
+    padding: 0;
+    margin: 0;
+  }
+
+  .shop-now .title {
+    font-size: 24px !important;
+  }
+  .slide.owl-carousel{
+    height: 350px;
+  }
+  .slide.owl-carousel img{
+    height: 350px;
+  }
+  .block.content > ul {
+      display: inline-block;
+  }
+  .origi h1 {
+    font-size: 14px !important;
+    margin-bottom: 15px;
+  }
+
+}
